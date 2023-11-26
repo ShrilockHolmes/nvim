@@ -17,7 +17,7 @@ vopt.smartindent = true
 
 vopt.wrap = true
 
-vopt.undodir = os.getenv("HOME") .. "/.vim/undo"
+vopt.undodir=os.getenv("HOME") .. "/.vim/undo"
 vopt.undofile = true
 vopt.hlsearch = false
 vopt.incsearch = true
@@ -54,3 +54,4 @@ keyset("n", "<leader>k", "<cmd>lnext<CR>zz")
 keyset("n", "<leader>j", "<cmd>lprev<CR>zz")
 keyset("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 
+keyset('n','<C-c>','q!')
