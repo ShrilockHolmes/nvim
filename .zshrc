@@ -1,7 +1,3 @@
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
-
 export PATH=$PATH:"$HOME/.local/bin:$HOME/.cargo/bin"
 # User configuration
 #alias vim='NVIM_APPNAME="vim" nvim'
@@ -66,6 +62,3 @@ antigen theme romkatv/powerlevel10k
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-autosuggestions
 antigen apply
-#eval "$(starship init zsh)"
-
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
