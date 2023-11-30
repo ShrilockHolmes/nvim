@@ -49,7 +49,7 @@ keyset("n", "<leader>k", "<cmd>lnext<CR>zz")
 keyset("n", "<leader>j", "<cmd>lprev<CR>zz")
 keyset("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 
-keyset('n', '<C-c>', 'q!')
+keyset('n', '<C-c>', '<cmd>q!<CR>')
 
 -- Resize with arrows
 keyset("n", "<C-Up>", ":resize -2<CR>")

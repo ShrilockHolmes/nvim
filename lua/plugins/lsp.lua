@@ -25,6 +25,7 @@ return {
         vim.keymap.set('n', keys, func, { buffer = bufnr, desc = desc })
     end
 
+    nmap("<leader>d", vim.diagnostic.open_float)
     nmap('<F2>', vim.lsp.buf.rename, '[R]e[n]ame')
     nmap('<F4>', vim.lsp.buf.code_action, '[C]ode [A]ction')
 
