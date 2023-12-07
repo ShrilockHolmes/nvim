@@ -1,6 +1,7 @@
 -- function for transparency
 local vopt = vim.opt
 local keyset = vim.keymap.set
+
 vopt.nu = true
 vopt.rnu = true
 vopt.guicursor = ""
@@ -62,3 +63,5 @@ keyset("n", "<C-h>", "<C-w>h")
 keyset("n", "<C-j>", "<C-w>j")
 keyset("n", "<C-k>", "<C-w>k")
 keyset("n", "<C-l>", "<C-w>l")
+
+keyset('n','<leader>pv',vim.cmd.Ex)

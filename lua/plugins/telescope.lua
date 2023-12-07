@@ -1,5 +1,5 @@
 return {
-   'nvim-telescope/telescope.nvim',branch = '0.1.x',
+       'nvim-telescope/telescope.nvim',branch = '0.1.x',
       dependencies = { 'nvim-lua/plenary.nvim', {"nvim-telescope/telescope-fzf-native.nvim", build = "make"}
   },
       config=function()
@@ -25,7 +25,7 @@ return {
           {'<leader>ff','<cmd>Telescope find_files<CR>'},
           {'<leader>fo','<cmd>Telescope oldfiles <CR>'},
           {'<leader>fs',function()
-              require('telescope.builtin').grep_string({search = vim.fn.input('Find : ')})
+              require('telescope.builtin').grep_string({search = vim.fn.input('Grep > ')})
           end},
       }
-  }
+}
