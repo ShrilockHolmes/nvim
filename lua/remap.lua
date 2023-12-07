@@ -1,4 +1,7 @@
 -- function for transparency
+function Colormypencils()
+    vim.api.nvim_set_hl(0,"Normal",{bg="none"})
+end
 local vopt = vim.opt
 local keyset = vim.keymap.set
 
@@ -10,7 +13,6 @@ vopt.softtabstop = 4
 vopt.shiftwidth = 4
 vopt.expandtab = true
 vopt.smartindent = true
-
 vopt.wrap = true
 
 vopt.undodir = os.getenv("HOME") .. "/.vim/undo"
@@ -64,4 +66,4 @@ keyset("n", "<C-j>", "<C-w>j")
 keyset("n", "<C-k>", "<C-w>k")
 keyset("n", "<C-l>", "<C-w>l")
 
-keyset('n','<leader>pv',vim.cmd.Ex)
+keyset('n', '<leader>pv', vim.cmd.Ex)
