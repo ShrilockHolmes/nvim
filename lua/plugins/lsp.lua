@@ -2,7 +2,7 @@ return {
      {
     -- LSP Configuration & Plugins
     'neovim/nvim-lspconfig',
-    event={"BufReadPre","BufNewFile"},
+    event={"BufReadPost","BufNewFile"},
     config=function()
         require('opts.lsp')
     end,
