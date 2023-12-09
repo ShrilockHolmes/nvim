@@ -1,5 +1,10 @@
 return {
-    {"sainnhe/gruvbox-material",config=function()
-        vim.cmd.colorscheme('gruvbox-material')
-    end,event="UIEnter"}
+    {
+        "EdenEast/nightfox.nvim",
+        config = function()
+            vim.cmd.colorscheme('nightfox')
+            Colormypencils()
+        end,
+        event = "UIEnter"
+    }
 }
