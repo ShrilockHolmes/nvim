@@ -33,7 +33,7 @@ keyset('n', 'n', 'nzzzv')
 keyset('n', 'N', 'nzzzv')
 
 -- for this eg given below
-keyset('x', "<leader>p", "\"_dp")
+keyset('x', "<leader>p", "\"_dP")
 -- say we have foo and bar delete and paste over
 keyset('n', '<leader>y', "\"+y")
 keyset('v', '<leader>y', "\"+y")
