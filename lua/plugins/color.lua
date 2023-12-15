@@ -1,10 +1,10 @@
 return {
-    {
-        "EdenEast/nightfox.nvim",
-        config = function()
-            vim.cmd.colorscheme('nightfox')
---            Colormypencils()
-        end,
-        event = "UIEnter"
-    }
+  {
+    "catppuccin/nvim",
+    name = "catppuccin",
+    config = function()
+      vim.cmd.colorscheme('catppuccin')
+    end,
+    event = "UIEnter"
+  }
 }
