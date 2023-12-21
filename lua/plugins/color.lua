@@ -6,5 +6,6 @@ return {
       vim.cmd.colorscheme('catppuccin')
     end,
     event = "UIEnter"
-  }
+  },
+ {'ThePrimeagen/vim-be-good',event="InsertEnter"}
 }
