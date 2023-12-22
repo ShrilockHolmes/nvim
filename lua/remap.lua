@@ -1,7 +1,3 @@
--- function for transparency
-function Colormypencils()
-    vim.api.nvim_set_hl(0,"Normal",{bg="none"})
-end
 local vopt = vim.opt
 local keyset = vim.keymap.set
 
@@ -22,6 +18,7 @@ vopt.incsearch = true
 vopt.termguicolors = true
 
 vopt.updatetime = 250
+
 keyset('n', 'U', '<cmd>redo<CR>')
 keyset('v', '<M-j>', ":m '>+1<CR>gv=gv")
 keyset('v', '<M-k>', ":m '<-2<CR>gv=gv")

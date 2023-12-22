@@ -7,5 +7,4 @@ return {
     end,
     event = "UIEnter"
   },
- {'ThePrimeagen/vim-be-good',event="InsertEnter"}
 }
