@@ -1,10 +1,10 @@
 return {
-  {
-    "catppuccin/nvim",
-    name = "catppuccin",
-    event="UIEnter",
-    config=function ()
-    vim.cmd.colorscheme('catppuccin')
-    end
-  },
+ {
+   "catppuccin/nvim",
+   name = "catppuccin",
+   event="UIEnter",
+   config=function ()
+   vim.cmd.colorscheme('catppuccin')
+   end
+ },
 }
