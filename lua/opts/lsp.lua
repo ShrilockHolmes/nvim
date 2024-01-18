@@ -33,7 +33,7 @@ local on_attach = function(_, bufnr)
 end
 
 local servers = {
-    clangd = {},
+    --clangd = {},
     lua_ls = {
         Lua = {
             workspace = { checkThirdParty = false },
